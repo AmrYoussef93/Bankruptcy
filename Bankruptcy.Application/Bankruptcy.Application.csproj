@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bankruptcy.Common\Bankruptcy.Common.csproj" />
+    <ProjectReference Include="..\Bankruptcy.Domain\Bankruptcy.Domain.csproj" />
+    <ProjectReference Include="..\Bankruptcy.DTO\Bankruptcy.DTO.csproj" />
+    <ProjectReference Include="..\Bankruptcy.Resource\Bankruptcy.Resource.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Handler\" />
+  </ItemGroup>
+
+</Project>

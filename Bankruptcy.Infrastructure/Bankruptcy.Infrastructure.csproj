@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bankruptcy.Application\Bankruptcy.Application.csproj" />
+    <ProjectReference Include="..\Bankruptcy.Common\Bankruptcy.Common.csproj" />
+  </ItemGroup>
+
+</Project>
